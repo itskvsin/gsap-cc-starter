@@ -1,72 +1,58 @@
-<div align="center">
-    <a href="https://gsap-crash-course.vercel.app" target="_blank">
-      <img src="public/preview.png" alt="Project Banner">
-    </a>
-  <h3 align="center">GSAP Workshop (Starter)</h3>
-</div>
+# GSAP Animations in React
 
-##  <br /> 📋 <a name="table">Table of Contents</a>
+This repository contains practice projects using **GSAP (GreenSock Animation Platform)** with **React**. It's a sandbox for learning how to implement animations in a React environment using GSAP's powerful API and plugins like ScrollTrigger.
 
-- ✨ [Introduction](#introduction)
-- ⚙️ [Tech Stack](#tech-stack)
-- 🚀 [Quick Start](#quick-start)
+## 🚀 Features
 
+- Smooth entrance and exit animations
+- Scroll-based animations with ScrollTrigger
+- Timeline and sequencing support
+- React integration using `useRef` and `useEffect`
+- Modular component structure
 
-##  <br /> <a name="introduction">✨ Introduction</a>
+## 🛠️ Technologies Used
 
-Simple GSAP workshop showcasing various primary animations. GSAP (GreenSock Animation Platform) is a framework-agnostic JavaScript animation library used to create fluid and engaging animations.
+- React
+- GSAP
+- ScrollTrigger (optional)
+- Vite
+- CSS Modules or Styled Components
 
+## 📂 Project Structure
 
-##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
-
-- [**React**](https://react.dev/reference/react) is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
-
-- [**GSAP**](https://gsap.com/resources/) (GreenSock Animation Platform) is a powerful JavaScript library for creating high-performance animations. It excels in animating HTML elements with smoothness and precision, making it ideal for enhancing user interfaces and web experiences. GSAP's robust API allows developers to create complex animations easily, leveraging timelines and plugins for advanced control and customization. Its efficient rendering engine ensures animations run smoothly across different browsers and devices, providing a seamless user experience.
-
-- [**Vite**](https://vitejs.dev/guide/) is a modern frontend build tool known for fast ES Module imports, efficient bundling, and quick development server startup times. It supports frameworks like Vue.js and React, optimizing workflow and performance compared to traditional bundlers.
-
-
-## <br /> <a name="quick-start">🚀 Quick Start</a>
-
-
-Follow these steps to set up the project locally on your machine.
-
-
-<br/>**Prerequisites**
-
-
-Make sure you have the following installed on your machine:
-
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-
-<br/>**Cloning the Repository**
-
-
-```bash
-git clone https://github.com/JavaScript-Mastery-Pro/gsap-cc-starter.git
-cd gsap-cc-starter
+```
+will be decided in future
 ```
 
 
-<br/>**Installation**
-
-Let's install the project dependencies, from your terminal, run:
+## 🧪 How to Run
 
 ```bash
+# Clone the repo
+git clone https://github.com/itskvsin/gsapPrac.git
+
+# Install dependencies
 npm install
-```
 
-<br/>**Running the Project**
-
-Installation will take a minute or two, but once that's done, you should be able to run the following command:
-
-```bash
+# Start development server
 npm run dev
 ```
 
-Open [`http://localhost:5173`](http://localhost:5173) in your browser to view the project.
+📚 Learning Goals
+
+Understand how GSAP works with React components
+
+Use ScrollTrigger for scroll animations
+
+Build reusable animated components
+
+Practice creating timelines and chaining animations
+
+📌 Notes
+
+This is a learning and experimentation project.
+
+Code may not follow production best practices.
+
+Feel free to contribute or fork for your own learning.
 
